@@ -108,7 +108,7 @@ class UpsClient extends ShipperClient
       lastStatus = rawActivity['Status']?[0]
       details = lastStatus?['StatusType']?[0]?['Description']?[0]
       if details? and timestamp?
-        details = upperCaseFirst lowerCase details
+        # details = upperCaseFirst lowerCase details
         activity = {timestamp, location, details}
         if statusObj = rawActivity['Status']?[0]
           activity.statusType = statusObj['StatusType']?[0]?['Code']?[0]

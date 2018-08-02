@@ -1,4 +1,7 @@
+# NOTICE: This is forked from the original `shipit` node module.
+
 ## What is this?
+
 ### Shipping APIs Adapter
 `shipit` is a node module that allows you to retrieve data from shipping carriers like UPS and FedEx in a common format. It interfaces with tracking APIs when available, and falls back to screen scraping. For carriers that expose tracking APIs, user is expected to acquire and provide credentials like license numbers, meter numbers, user IDs and passwords.
 

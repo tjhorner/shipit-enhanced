@@ -1,5 +1,5 @@
 {
-  "name": "shipit",
+  "name": "shipit-enhanced",
   "version": "1.0.2",
   "description": "This module allows you to connect to many shipping carriers like UPS and FedEx and download tracking data for your packages in a common schema",
   "main": "lib/main.js",
